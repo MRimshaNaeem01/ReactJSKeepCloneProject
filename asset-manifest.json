@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ReactJSKeepCloneProject/static/css/main.5ade2168.chunk.css",
+    "main.js": "/ReactJSKeepCloneProject/static/js/main.d55e4675.chunk.js",
+    "main.js.map": "/ReactJSKeepCloneProject/static/js/main.d55e4675.chunk.js.map",
+    "runtime-main.js": "/ReactJSKeepCloneProject/static/js/runtime-main.aa44b76e.js",
+    "runtime-main.js.map": "/ReactJSKeepCloneProject/static/js/runtime-main.aa44b76e.js.map",
+    "static/js/2.424a8554.chunk.js": "/ReactJSKeepCloneProject/static/js/2.424a8554.chunk.js",
+    "static/js/2.424a8554.chunk.js.map": "/ReactJSKeepCloneProject/static/js/2.424a8554.chunk.js.map",
+    "index.html": "/ReactJSKeepCloneProject/index.html",
+    "static/css/main.5ade2168.chunk.css.map": "/ReactJSKeepCloneProject/static/css/main.5ade2168.chunk.css.map",
+    "static/js/2.424a8554.chunk.js.LICENSE.txt": "/ReactJSKeepCloneProject/static/js/2.424a8554.chunk.js.LICENSE.txt",
+    "static/media/logo4.31ad5581.jpg": "/ReactJSKeepCloneProject/static/media/logo4.31ad5581.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa44b76e.js",
+    "static/js/2.424a8554.chunk.js",
+    "static/css/main.5ade2168.chunk.css",
+    "static/js/main.d55e4675.chunk.js"
+  ]
+}
