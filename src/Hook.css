@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(4, 14, 14);
+}
+.Heading_hook{
+    background-color: turquoise;
+    display: inline-block;
+    text-align: center;
+    border:5px solid white;
+    margin: 19% 37% 10% 43%;
+    color: #eff7f2;
+    background-color: rgba(240, 60, 60, 0.924);
+    padding: 10px;
+}
+.Heading_time{
+    padding: 3px;
+    margin: 10px 24px 10px 24px;
+    color: chartreuse;
+}
+.buttonn{
+    background-color: rgba(8, 11, 12, 0.924);
+    color: #eff7f2;
+font-weight:bold;
+border:2px solid rgb(42, 226, 250);
+}
+.buttonn:hover{
+   font-size: 0.9em;
+font-weight:bolder;
+border:2px solid rgb(62, 31, 235);
+}

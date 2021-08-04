@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(218, 133, 235);
+}
+.header {
+    width: 100%;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: start;
+    background-color: #91098ab7 !important;
+   box-shadow: 5px 3px 15px -5px rgb(155, 138, 138);
+}
+.header img{
+    margin-left: -22px;
+    border:6px dashed rgb(143, 4, 4);
+}
+h1{
+    font-size: 1.0em;
+    margin-left:4px;
+    padding: -92px;
+    color: rgb(237, 237, 243);
+    border-radius: 20%;
+    font-family: 'Berkshire Swash', cursive;
+   background-image: linear-gradient(rgb(227, 12, 247),white,rgb(75, 109, 224), white,rgb(227, 12, 247));
+}
+
+input{
+    color: #0b0c13;
+    background: rgb(243, 238, 242) !important;
+}
+textarea{
+    width: 100%;
+    line-height: 30px;
+    background: rgb(247, 241, 246) !important;
+    outline: none;
+    border: transparent;
+    color: black;
+    font-size: 1rem;
+
+    margin: 10px 0;  
+    box-shadow: 8px 8px 8px -5px black; 
+
+}
+.main_note{ 
+    /* justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto; */
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+    
+}
+div .main_note{
+    width: 400px;  
+
+}
+.my_notes{
+    background-color: rgb(24, 233, 240);
+
+}
+.my_notes p{
+    color:grey;
+    background-color: transparent !important;
+}
+.my_notes h1{
+    color: rgb(78, 57, 57);
+
+}
+form{
+    min-height: 50px;
+    color: rgb(247, 231, 247);
+    padding: 15px 10px 5px 10px;
+    border-radius: 10px;
+    position: relative;  
+     
+}
+.extra{
+    background-color: transparent;
+    border: 2px solid red;
+    width: 50%;
+    margin: 0pc auto;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    border: none;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.plus_sign{
+    position: relative;   
+}
+.note
+{
+    height: 100%;
+    width: 60%;
+    background: rgba(15, 34, 139, 0.644) !important;
+    border-radius: 7px;
+    box-shadow: 2px 2px 30px -5px rgb(10, 8, 8);
+    padding: 10px;
+    margin: 16px;
+    float: left;
+}
+.note p{
+    font-size: 1.0em;
+    margin-bottom: 10px;
+    color: black;
+    white-space: pre-wrap;
+    word-wrap:break-word;
+   background-color: #e18de9 !important;
+}
+.note .btn{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    columns: #f4b400;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: red;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 15px -10px rgb(0,0,0);
+    border-radius: 50%;
+}
+.deleteIcon{
+    width: 0.7em;
+    height: 0.7em;
+box-shadow: 5px 5px 15px -5px;
+background-color: transparent;
+
+}
+.note .btn:hover{
+    background-color: black;
+}
+.note .btn:hover .deleteIcon{
+    color: red;
+}
+.main_note .btn .plus_sign:hover{
+    background-color:red;
+
+}
+.MuiButton-root{
+    width: 50px;
+    height: 55px;
+    position: absolute;
+bottom: 22px;
+border-radius: 50% !important;
+left:300px;
+cursor: pointer;
+box-shadow: 5px 5px 15px -5px red;
+}
+.MuiButton-root .plus_sign{
+    font-size: 45px !important;
+    font-weight: 900;
+    color: black;
+    cursor: pointer;
+    border-radius: 0%;
+    background-color: transparent !important;
+    width: 40px;
+    height: 38px;
+  z-index: 222;
+}
+.MuiButton-root:hover{
+    background-color: red !important;
+}
+.MuiButton-root:hover .plus_sign{
+    background-color: red;
+    color: rgba(248, 41, 14, 0.911);;
+}
+.note{
+    background: red;
+    border-radius: 7px;
+    padding: 8px;
+    width: 222px;
+    height: 20vh;
+    margin-top: 1px;
+    float: left;
+   bottom: 14;
+}
+.note h2{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    color: black;
+    background-color: #e18de9 !important;
+
+
+}
+/* .footer{ */
+    /* width: 100%;dd
+    position: fixed;
+   left: 0;
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    color: blue;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;   
+     color: blue; */
+  /* width: 100%;
+    position: fixed;
+    bottom: 0;
+     background-color: hsla(303, 88%, 30%, 0.718) !important;
+   box-shadow: 5px 3px 15px -5px rgb(155, 138, 138);
+   color: blue;
+   font-size: 1em;
+   font-weight: bold; */
+/* 
+} */
+footer {
+    width: 100%;
+    line-height: 15px;
+   bottom: 0;
+position: fixed;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Berkshire Swash', cursive;  
+    background-color: #91098ab7 !important;
+   box-shadow: 5px 3px 15px -5px rgb(155, 138, 138);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  }
+  footer p1{
+    background-color: #91098ab7 !important;
+    font-size: 1em;
+    padding: 10px;
+   
+
+  }
+  footer p2{
+    background-color: #91098ab7 !important;
+    padding: 10px;
+font-size: 0.4em;
+
+  }
