@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/ReactJSKeepCloneProject/static/css/main.73b12588.chunk.css",
-    "main.js": "/ReactJSKeepCloneProject/static/js/main.e22754c1.chunk.js",
-    "main.js.map": "/ReactJSKeepCloneProject/static/js/main.e22754c1.chunk.js.map",
+    "main.css": "/ReactJSKeepCloneProject/static/css/main.5ade2168.chunk.css",
+    "main.js": "/ReactJSKeepCloneProject/static/js/main.49905e15.chunk.js",
+    "main.js.map": "/ReactJSKeepCloneProject/static/js/main.49905e15.chunk.js.map",
     "runtime-main.js": "/ReactJSKeepCloneProject/static/js/runtime-main.aa44b76e.js",
     "runtime-main.js.map": "/ReactJSKeepCloneProject/static/js/runtime-main.aa44b76e.js.map",
-    "static/js/2.41f271c0.chunk.js": "/ReactJSKeepCloneProject/static/js/2.41f271c0.chunk.js",
-    "static/js/2.41f271c0.chunk.js.map": "/ReactJSKeepCloneProject/static/js/2.41f271c0.chunk.js.map",
+    "static/js/2.758efba2.chunk.js": "/ReactJSKeepCloneProject/static/js/2.758efba2.chunk.js",
+    "static/js/2.758efba2.chunk.js.map": "/ReactJSKeepCloneProject/static/js/2.758efba2.chunk.js.map",
     "index.html": "/ReactJSKeepCloneProject/index.html",
-    "static/css/main.73b12588.chunk.css.map": "/ReactJSKeepCloneProject/static/css/main.73b12588.chunk.css.map",
-    "static/js/2.41f271c0.chunk.js.LICENSE.txt": "/ReactJSKeepCloneProject/static/js/2.41f271c0.chunk.js.LICENSE.txt"
+    "static/css/main.5ade2168.chunk.css.map": "/ReactJSKeepCloneProject/static/css/main.5ade2168.chunk.css.map",
+    "static/js/2.758efba2.chunk.js.LICENSE.txt": "/ReactJSKeepCloneProject/static/js/2.758efba2.chunk.js.LICENSE.txt",
+    "static/media/logo4.31ad5581.jpg": "/ReactJSKeepCloneProject/static/media/logo4.31ad5581.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aa44b76e.js",
-    "static/js/2.41f271c0.chunk.js",
-    "static/css/main.73b12588.chunk.css",
-    "static/js/main.e22754c1.chunk.js"
+    "static/js/2.758efba2.chunk.js",
+    "static/css/main.5ade2168.chunk.css",
+    "static/js/main.49905e15.chunk.js"
   ]
 }
