@@ -1,0 +1,63 @@
+*{
+    background-color: rgb(26, 26, 8);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 40vh;
+    width: 40%;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+    margin-top: 5%;
+   
+
+}
+span{
+    cursor: pointer;
+    padding: 5px;
+    background-color: yellow;
+    border: 2px solid rgb(14, 4, 4);
+}
+.btn_group{
+    display: flex;
+    flex-direction: row;
+margin-left: 64px;
+justify-content:center;
+align-items: center;
+text-align: center;
+margin: auto;
+margin-top: 10px;
+}
+
+input{
+    width: 19%;
+    padding: 8px;
+   display: flex;
+   flex-wrap: wrap;
+    text-align: center;
+    background-color: yellowgreen;
+    
+    font-weight: bold;
+    
+}
+h1{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  color: white;
+  font-family: fantasy;
+}
+h4{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  color: red;
+}

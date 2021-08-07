@@ -888,48 +888,87 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // ⏬⏬⏬⏬⏬⏬⏬⏬GOOGLE KEEP APP CLONE⏬⏬⏬⏬⏬⏬⏬⏬
+// import React, { useState } from 'react';
+// import './index4.css'
+// import Header from './Header';
+// import Footer from './Footer';
+// import CreateNote from './CreateNote';
+// import Note from './Notes'
+
+// const App = () => {
+
+
+
+
+//   const [addItems, setAddItems] = useState([]);
+//   const addNote = (note) => {
+//     setAddItems((prevData) => {
+//       return [...prevData, note]
+//     })
+//   }
+//   const onDelete=(id)=>{
+//     setAddItems((olddata)=>{
+//       return(
+//       olddata.filter((currdata,indexx)=>{
+//         return indexx!==id;
+//       }))
+//     })
+//   }
+//   return (
+//     <>
+//       <Header />
+//       <CreateNote passNote={addNote} />
+//       {/* <Notes /> */}
+//       {addItems.map((val, index) => {
+//         return (
+//           <Note key={index} id={index} title={val.title} content={val.content} deleteItems={onDelete} />
+//         );}
+
+
+//       )}
+//       <br />
+//       <Footer />
+//     </>
+//   );
+// }
+
+// export default App;
+
 import React, { useState } from 'react';
-import './index4.css'
-import Header from './Header';
-import Footer from './Footer';
-import CreateNote from './CreateNote';
-import Note from './Notes'
+import './index5.css'
+import {useSelector,useDispatch} from 'react-redux';
+import {incNumber,decNumber,mulNumber,divNumber} from './actions/index.js';
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></link>
 
 const App = () => {
+  const myState=useSelector((state)=>state.changeTheNumber)
+  const mynewState=useSelector((state)=>state.muldivTheNumber)
 
-  
-  
-
-  const [addItems, setAddItems] = useState([]);
-  const addNote = (note) => {
-    setAddItems((prevData) => {
-      return [...prevData, note]
-    })
-  }
-  const onDelete=(id)=>{
-    setAddItems((olddata)=>{
-      return(
-      olddata.filter((currdata,indexx)=>{
-        return indexx!==id;
-      }))
-    })
-  }
+  const dispatch=useDispatch();
   return (
     <>
-      <Header />
-      <CreateNote passNote={addNote} />
-      {/* <Notes /> */}
-      {addItems.map((val, index) => {
-        return (
-          <Note key={index} id={index} title={val.title} content={val.content} deleteItems={onDelete} />
-        );}
-     
+      <div className="container">
+        <h1>Increment/Decrement Counter</h1>
+        <h4>Using React and Redux</h4>
+        <div className="btn_group" >
+          <a title="decrement" className="plus_btn" onClick={()=>dispatch(incNumber(5))}><span> ➕</span> </a>
+          <input type="text" name="quantity" className="quantity_input" value={myState} />
+          <a title="increment" className="minus_btn" onClick={()=>dispatch(decNumber())}><span> ➖ </span> </a>
+        </div>
+      </div>
 
-      )}
-      <br />
-      <Footer />
+<hr></hr>
+      <div className="container">
+        <h1>Multiplication/Subtraction Counter</h1>
+        <h4>Using React and Redux</h4>
+        <div className="btn_group" >
+          <a title="decrement" className="plus_btn" onClick={()=>dispatch(mulNumber(5))}><span> ✖ </span> </a>
+          <input type="text" name="quantity" className="quantity_input" value={mynewState} />
+          <a title="increment" className="minus_btn" onClick={()=>dispatch(divNumber())}><span> ➗ </span> </a>
+        </div>
+      </div>
+
     </>
-  );
+  )
 }
-
 export default App;

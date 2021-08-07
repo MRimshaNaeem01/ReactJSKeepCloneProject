@@ -1,0 +1,9 @@
+const initialState=0;
+const changTheNumber=(state=initialState,action)=>{
+    switch(action.type){
+       case "INCREMENT": return state + action.incremnt5;
+       case "DECREMENT": return state -1;
+default: return state;
+    }
+}
+export default changTheNumber;
